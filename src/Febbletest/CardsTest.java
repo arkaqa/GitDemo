@@ -18,7 +18,9 @@ public class CardsTest extends TestBaseClass {
 	private WebElement MedicalBoard;
 
 	@FindBy(xpath = "(//div[@role='button' and text()='Add a card...'])[1]")
+	private WebElement AddCardsABCD;
 	private WebElement AddCards;
+	
 	
 	@FindBy(id = "noty_layout__bottomRight")
 	private WebElement AddCardMessage;
